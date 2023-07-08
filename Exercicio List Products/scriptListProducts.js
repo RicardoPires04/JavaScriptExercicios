@@ -7,6 +7,7 @@ var produtos = new Array (
 
 function listaTabela(){
     let tbody = document.getElementById("tbody");
+    tbody.innerText = "";
 
     for (let i = 0; i < this.produtos.length; i++){
         let tr = tbody.insertRow();
